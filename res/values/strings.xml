@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cent</string>
+    <string name="about">About</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="receive">Receive</string>
+</resources>
