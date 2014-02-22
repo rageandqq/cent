@@ -1,6 +1,7 @@
 package com.rageandqq.Cent;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
@@ -16,8 +17,7 @@ import android.widget.Toast;
  */
 public class MenuActivity extends Activity implements View.OnClickListener
 {
-    public static Typeface FONT_BOLD, FONT_REGULAR;
-
+    protected static Typeface FONT_BOLD, FONT_REGULAR;
     /**
      * Creates the Menu.
      * @param savedInstanceState
@@ -26,11 +26,9 @@ public class MenuActivity extends Activity implements View.OnClickListener
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
-
         //font initialization
         FONT_REGULAR = Typeface.createFromAsset(getAssets(), "fonts/Cardo-Regular.ttf");
         FONT_BOLD = Typeface.createFromAsset(getAssets(), "fonts/Cardo-Bold.ttf");
-
         //button assignment
         Button aboutButton, editButton, shareButton, receiveButton;
         aboutButton = (Button) findViewById(R.id.about_button);
@@ -45,8 +43,6 @@ public class MenuActivity extends Activity implements View.OnClickListener
         editButton.setOnClickListener(this);
         shareButton.setOnClickListener(this);
         receiveButton.setOnClickListener(this);
-
-
     }
 
     /**
@@ -56,17 +52,15 @@ public class MenuActivity extends Activity implements View.OnClickListener
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.about_button) {
-            Toast.makeText(getApplicationContext(), "About Button Pressed", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(MenuActivity.this, AboutActivity.class);
+            startActivity(i);
         }
-
         if (v.getId() == R.id.edit_button) {
             Toast.makeText(getApplicationContext(), "Edit Button Pressed", Toast.LENGTH_SHORT).show();
         }
-
         if (v.getId() == R.id.share_button) {
             Toast.makeText(getApplicationContext(), "Share Button Pressed", Toast.LENGTH_SHORT).show();
         }
-
         if (v.getId() == R.id.receive_button) {
             Toast.makeText(getApplicationContext(), "Receive Button Pressed", Toast.LENGTH_SHORT).show();
         }
