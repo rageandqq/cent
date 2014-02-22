@@ -7,4 +7,7 @@
     <string name="receive">Receive</string>
     <string name="about_info">A new way to network.\n Share your contact information with the click of a button.
     </string>
+    <string name="first_run_info">This is your first time launching the app.\n\nWould you like to configure your
+        CENT?\n(Highly Recommended)
+    </string>
 </resources>

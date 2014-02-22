@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bgColor">
+
+    <ImageView android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/logo"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="30dp"
+               android:id="@+id/logo"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/first_run_text"
+                android:text="@string/first_run_info"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_centerInParent="true"
+                />
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/yes_button"
+                android:textColor="@color/altTextColor"
+                android:background="@color/textColor"
+                android:textSize="25sp"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:id="@+id/no_button"
+                android:textColor="@color/altTextColor"
+                android:background="@color/textColor"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/yes_button"
+                android:layout_marginLeft="20dp"
+                    android:layout_alignTop="@id/yes_button"/>
+
+        </RelativeLayout>
+
+</RelativeLayout>

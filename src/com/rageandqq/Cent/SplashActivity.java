@@ -2,6 +2,7 @@ package com.rageandqq.Cent;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
@@ -22,11 +23,23 @@ public class SplashActivity extends Activity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
+        SharedPreferences prefs = getPreferences(MODE_PRIVATE);
+        boolean firstRun = prefs.getBoolean("firstRun", true);
+        Intent mainIntent;
+        if (firstRun) {
+            SharedPreferences.Editor editor = getPreferences(MODE_PRIVATE).edit();
+            editor.putBoolean("firstRun", false);
+            editor.commit();
+            mainIntent = new Intent(SplashActivity.this, FirstRunActivity.class);
+        }
+        else {
+            mainIntent = new Intent(SplashActivity.this, MenuActivity.class);
+        }
+        final Intent mainIntent2 = mainIntent;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent mainIntent = new Intent(SplashActivity.this, MenuActivity.class);
-                SplashActivity.this.startActivity(mainIntent);
+                SplashActivity.this.startActivity(mainIntent2);
                 SplashActivity.this.finish();
                 overridePendingTransition(R.anim.mainfadein, R.anim.splashfadeout);
             }
