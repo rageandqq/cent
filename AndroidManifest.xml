@@ -15,5 +15,6 @@
         <activity android:name=".MenuActivity" android:label="menu"/>
         <activity android:name=".AboutActivity"/>
         <activity android:name=".FirstRunActivity"/>
+        <activity android:name=".EditActivity"/>
     </application>
 </manifest>

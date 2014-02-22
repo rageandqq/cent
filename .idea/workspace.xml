@@ -16,7 +16,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93a0ef52-e6f0-4e89-aa28-ed5b27cb0309" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/rageandqq/Cent/SplashActivity.java" afterPath="$PROJECT_DIR$/src/com/rageandqq/Cent/SplashActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -82,12 +81,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SplashActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SplashActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/rageandqq/Cent/SplashActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.14354067" vertical-offset="0" max-vertical-offset="675">
+            <state line="12" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rageandqq/Cent/EditActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="38" selection-start="309" selection-end="309" vertical-scroll-proportion="0.23923445" vertical-offset="0" max-vertical-offset="627">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="48" selection-start="1530" selection-end="1530" vertical-scroll-proportion="-8.888889" vertical-offset="330" max-vertical-offset="1470">
+              <folding>
+                <element signature="e#2651#2676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -110,7 +132,6 @@
         <option value="$PROJECT_DIR$/res/layout/menu.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/about.xml" />
         <option value="$PROJECT_DIR$/res/anim/lefttoright.xml" />
         <option value="$PROJECT_DIR$/res/anim/righttoleft.xml" />
         <option value="$PROJECT_DIR$/src/com/rageandqq/Cent/AboutActivity.java" />
@@ -118,6 +139,13 @@
         <option value="$PROJECT_DIR$/src/com/rageandqq/Cent/SplashActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/first_run.xml" />
         <option value="$PROJECT_DIR$/src/com/rageandqq/Cent/FirstRunActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/rageandqq/Cent/ImageFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/rageandqq/Cent/EditActivity.java" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/rectangle.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-ldpi/rectangle.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-mdpi/rectangle.xml" />
+        <option value="$PROJECT_DIR$/res/layout/about.xml" />
+        <option value="$PROJECT_DIR$/res/layout/edit.xml" />
       </list>
     </option>
   </component>
@@ -153,8 +181,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,24 +277,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -279,6 +287,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,7 +331,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res/anim" />
+      <recent name="$PROJECT_DIR$/res/drawable-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/res/drawable-ldpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Cent">
@@ -591,11 +605,12 @@
       <workItem from="1392936091624" duration="4080000" />
       <workItem from="1393048435753" duration="2190000" />
       <workItem from="1393094564389" duration="2276000" />
+      <workItem from="1393100850314" duration="3112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8546000" />
+    <option name="totallyTimeSpent" value="11658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="1024" extended-state="0" />
@@ -616,7 +631,6 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2026612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32958034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -629,6 +643,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958034" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -653,6 +668,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/rageandqq/Cent/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rageandqq/Cent/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="16" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
@@ -682,13 +704,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/about.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="35" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="945">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -699,13 +721,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/menu.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="48" selection-start="2322" selection-end="2837" vertical-scroll-proportion="0.0" vertical-offset="518" max-vertical-offset="1095">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/logo.png">
@@ -740,13 +762,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/splash.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="43" selection-start="142" selection-end="142" vertical-scroll-proportion="0.06507592" vertical-offset="0" max-vertical-offset="922">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
@@ -797,9 +819,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/first_run.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="16" selection-start="737" selection-end="737" vertical-scroll-proportion="0.34571064" vertical-offset="0" max-vertical-offset="930">
           <folding>
@@ -807,25 +826,18 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/menu.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/menu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="48" selection-start="824" selection-end="824" vertical-scroll-proportion="0.475" vertical-offset="0" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/about.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="48" selection-start="1673" selection-end="2178" vertical-scroll-proportion="1.115" vertical-offset="141" max-vertical-offset="945">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rageandqq/Cent/FirstRunActivity.java">
@@ -844,7 +856,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rageandqq/Cent/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.14354067" vertical-offset="0" max-vertical-offset="675">
+        <state line="12" column="24" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/rectangle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/rectangle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/rectangle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xxxhdpi/rectangle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xxhdpi/rectangle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/rectangle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="1299" selection-end="1421" vertical-scroll-proportion="0.615" vertical-offset="111" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1530" selection-end="1530" vertical-scroll-proportion="-8.888889" vertical-offset="330" max-vertical-offset="1470">
+          <folding>
+            <element signature="e#2651#2676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rageandqq/Cent/EditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="309" selection-end="309" vertical-scroll-proportion="0.23923445" vertical-offset="0" max-vertical-offset="627">
           <folding />
         </state>
       </provider>
