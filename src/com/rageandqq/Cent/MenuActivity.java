@@ -56,7 +56,8 @@ public class MenuActivity extends Activity implements View.OnClickListener
             startActivity(i);
         }
         if (v.getId() == R.id.edit_button) {
-            Toast.makeText(getApplicationContext(), "Edit Button Pressed", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(MenuActivity.this, EditActivity.class);
+            startActivity(i);
         }
         if (v.getId() == R.id.share_button) {
             Toast.makeText(getApplicationContext(), "Share Button Pressed", Toast.LENGTH_SHORT).show();

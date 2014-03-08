@@ -51,12 +51,34 @@
                 android:layout_below="@id/first_name"
                 android:layout_marginTop="25dp"/>
 
-        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: "
+            android:id="@+id/phone_number"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/last_name"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address: "
+                android:id="@+id/email_address"
+                android:textSize="20sp"
+                android:textColor="@color/textColor"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/phone_number"
+                android:layout_marginTop="25dp"/>
+
+    </RelativeLayout>
 
     <RelativeLayout android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/input_fields"
-                    android:layout_toRightOf="@id/border"
+                    android:layout_toRightOf="@id/text_views"
                     android:layout_alignTop="@id/text_views"
                     android:paddingRight="10dp">
 
@@ -85,6 +107,66 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/first_name_field"
                 android:layout_marginTop="18dp"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="(555) 555-5555"
+                android:ems="10"
+                android:id="@+id/phone_number_field"
+                android:background="@color/textColor"
+                android:padding="5dp"
+                android:textColor="@color/altTextColor"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/last_name_field"
+                android:layout_marginTop="18dp"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="example@mail.com"
+                android:ems="10"
+                android:id="@+id/email_address_field"
+                android:background="@color/textColor"
+                android:padding="5dp"
+                android:textColor="@color/altTextColor"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/phone_number_field"
+                android:layout_marginTop="18dp"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp">
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:id="@+id/save_button"
+                android:textColor="@color/altTextColor"
+                android:background="@color/textColor"
+                android:textSize="25sp"/>
+
+        <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/cancel_button"
+                android:textColor="@color/altTextColor"
+                android:background="@color/textColor"
+                android:textSize="25sp"
+                android:layout_toRightOf="@id/save_button"
+                android:layout_marginLeft="20dp"
+                android:layout_alignTop="@id/save_button"/>
 
     </RelativeLayout>
 

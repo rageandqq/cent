@@ -30,12 +30,18 @@ public class FirstRunActivity extends Activity implements View.OnClickListener{
 
         yes.setOnClickListener(this);
         no.setOnClickListener(this);
+        /**
+         * REMINDER: IMPLEMENT OVERRIDE "BACK BUTTON" freature. One of these options MUST be pressed!
+         */
     }
 
     @Override
     public void onClick(View v) {
         if (v.getId()==R.id.yes_button) { //change Intent to start EditActivity once created
-            Toast.makeText(getApplicationContext(), "Yes Button Pressed", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent (FirstRunActivity.this, EditActivity.class);
+            i.putExtra("calledByFirst", true);
+            startActivity(i);
+            finish();
         }
 
         if (v.getId()==R.id.no_button) {
